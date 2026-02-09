@@ -25,8 +25,12 @@ board = SimpleBoard(
     cache_hierarchy=cache_hierarchy,
 )
 
-board.set_workload(obtain_resource("arm-gapbs-bfs-run"))
-# board.set_workload(obtain_resource("x86-gapbs-bfs-run"))
+gabps = obtain_resource("arm-gapbs-bfs-run")
+board.set_workload(gabps)
+
+# gabps = obtain_resource(“x86-gapbs-bfs-run")
+# gabps = set_parameter(“env_list”, “OMP_NUM_THREADS=1”)
+# board.set_workload(obtain_resource("arm-gapbs-bfs-run"));
 
 simulator = Simulator(board=board)
 simulator.run()
