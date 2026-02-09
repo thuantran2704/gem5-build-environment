@@ -28,8 +28,8 @@ board = SimpleBoard(
 gabps = obtain_resource("arm-gapbs-bfs-run")
 board.set_workload(gabps)
 
-# gabps = obtain_resource(“x86-gapbs-bfs-run")
-# gabps = set_parameter(“env_list”, “OMP_NUM_THREADS=1”)
+# gabps = obtain_resource("x86-gapbs-bfs-run")
+# gabps.set_parameter("env_list", "OMP_NUM_THREADS=1")
 # board.set_workload(gabps);
 
 simulator = Simulator(board=board)
