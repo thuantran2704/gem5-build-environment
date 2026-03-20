@@ -6,6 +6,7 @@ from gem5.components.cachehierarchies.classic.private_l1_private_l2_cache_hierar
 from gem5.components.memory.single_channel import SingleChannelDDR4_2400
 from gem5.components.processors.cpu_types import CPUTypes
 from gem5.isas import ISA
+
 # from gem5.resources.resource import obtain_resource
 from gem5.simulate.simulator import Simulator
 from gem5.resources.resource import BinaryResource
@@ -16,8 +17,8 @@ cache_hierarchy = PrivateL1PrivateL2CacheHierarchy(
 )
 
 memory = SingleChannelDDR4_2400()
-# processor = SimpleProcessor(cpu_type=CPUTypes.TIMING, isa=ISA.ARM, num_cores=1)
-processor = SimpleProcessor(cpu_type=CPUTypes.TIMING, isa=ISA.X86, num_cores=1)
+processor = SimpleProcessor(cpu_type=CPUTypes.TIMING, isa=ISA.ARM, num_cores=1)
+# processor = SimpleProcessor(cpu_type=CPUTypes.TIMING, isa=ISA.X86, num_cores=1)
 
 board = SimpleBoard(
     clk_freq="3GHz",
@@ -35,14 +36,12 @@ board = SimpleBoard(
 
 from gem5.resources.resource import BinaryResource
 
-binary = BinaryResource(
-    local_path="/mnt/c/src/eel/gem5-build-environment/dijkstra"
-)
+binary = BinaryResource(local_path="/mnt/c/src/eel/gem5-build-environment/dijkstra")
 
 board.set_workload(
     binary,
     arguments=["input.txt"],
-    working_directory="/mnt/c/src/eel/gem5-build-environment/"
+    working_directory="/mnt/c/src/eel/gem5-build-environment/",
 )
 
 simulator = Simulator(board=board)
