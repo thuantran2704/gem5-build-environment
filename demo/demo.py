@@ -36,13 +36,13 @@ board = SimpleBoard(
 from gem5.resources.resource import BinaryResource
 
 binary = BinaryResource(
-    local_path="/mnt/c/src/eel/dijkstra"
+    local_path="/mnt/c/src/eel/gem5-build-environment/dijkstra"
 )
 
 board.set_workload(
     binary,
     arguments=["input.txt"],
-    working_directory="/mnt/c/src/eel"
+    working_directory="/mnt/c/src/eel/gem5-build-environment/"
 )
 
 simulator = Simulator(board=board)
