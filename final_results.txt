@@ -1,0 +1,377 @@
+=== large_1MiB_BiModeBP ===
+Graph: large
+L2_Size: 1MiB
+BP_Type: BiModeBP
+Total Instructions: 648481262
+CPI: 0.434629
+IPC: 2.300813
+L1D Miss Rate: 0.007753
+L1I Miss Rate: 0.000016
+L2 Miss Rate: 0.356185
+DRAM Read BW: 325.503679
+Total Branches: 186237033
+Branch Mispredicts: 2184416
+
+=== large_1MiB_LocalBP ===
+Graph: large
+L2_Size: 1MiB
+BP_Type: LocalBP
+Total Instructions: 648481262
+CPI: 0.473483
+IPC: 2.112009
+L1D Miss Rate: 0.007933
+L1I Miss Rate: 0.000013
+L2 Miss Rate: 0.362966
+DRAM Read BW: 303.195303
+Total Branches: 197666329
+Branch Mispredicts: 3286833
+
+=== large_1MiB_TournamentBP ===
+Graph: large
+L2_Size: 1MiB
+BP_Type: TournamentBP
+Total Instructions: 648481262
+CPI: 0.384946
+IPC: 2.597764
+L1D Miss Rate: 0.008396
+L1I Miss Rate: 0.000017
+L2 Miss Rate: 0.356628
+DRAM Read BW: 368.873344
+Total Branches: 154031750
+Branch Mispredicts: 1056160
+
+=== large_256KiB_BiModeBP ===
+Graph: large
+L2_Size: 256KiB
+BP_Type: BiModeBP
+Total Instructions: 648481262
+CPI: 0.461529
+IPC: 2.166713
+L1D Miss Rate: 0.008218
+L1I Miss Rate: 0.000016
+L2 Miss Rate: 0.583827
+DRAM Read BW: 474.772884
+Total Branches: 186990172
+Branch Mispredicts: 2184213
+
+=== large_256KiB_LocalBP ===
+Graph: large
+L2_Size: 256KiB
+BP_Type: LocalBP
+Total Instructions: 648481262
+CPI: 0.509205
+IPC: 1.963847
+L1D Miss Rate: 0.008201
+L1I Miss Rate: 0.000013
+L2 Miss Rate: 0.585122
+DRAM Read BW: 428.745741
+Total Branches: 198127079
+Branch Mispredicts: 3295870
+
+=== large_256KiB_TournamentBP ===
+Graph: large
+L2_Size: 256KiB
+BP_Type: TournamentBP
+Total Instructions: 648481262
+CPI: 0.413742
+IPC: 2.416964
+L1D Miss Rate: 0.008838
+L1I Miss Rate: 0.000016
+L2 Miss Rate: 0.584054
+DRAM Read BW: 530.861261
+Total Branches: 154647422
+Branch Mispredicts: 1056214
+
+=== large_512KiB_BiModeBP ===
+Graph: large
+L2_Size: 512KiB
+BP_Type: BiModeBP
+Total Instructions: 648481262
+CPI: 0.445733
+IPC: 2.243497
+L1D Miss Rate: 0.007922
+L1I Miss Rate: 0.000016
+L2 Miss Rate: 0.430869
+DRAM Read BW: 376.179730
+Total Branches: 186566441
+Branch Mispredicts: 2184122
+
+=== large_512KiB_LocalBP ===
+Graph: large
+L2_Size: 512KiB
+BP_Type: LocalBP
+Total Instructions: 648481262
+CPI: 0.488386
+IPC: 2.047561
+L1D Miss Rate: 0.008023
+L1I Miss Rate: 0.000013
+L2 Miss Rate: 0.435133
+DRAM Read BW: 344.951815
+Total Branches: 197847427
+Branch Mispredicts: 3289627
+
+=== large_512KiB_TournamentBP ===
+Graph: large
+L2_Size: 512KiB
+BP_Type: TournamentBP
+Total Instructions: 648481262
+CPI: 0.396833
+IPC: 2.519954
+L1D Miss Rate: 0.008560
+L1I Miss Rate: 0.000017
+L2 Miss Rate: 0.431157
+DRAM Read BW: 423.948109
+Total Branches: 154302596
+Branch Mispredicts: 1056192
+
+=== medium_1MiB_BiModeBP ===
+Graph: medium
+L2_Size: 1MiB
+BP_Type: BiModeBP
+Total Instructions: 153940855
+CPI: 0.421938
+IPC: 2.370015
+L1D Miss Rate: 0.005497
+L1I Miss Rate: 0.000067
+L2 Miss Rate: 0.263285
+DRAM Read BW: 182.787724
+Total Branches: 44424756
+Branch Mispredicts: 556437
+
+=== medium_1MiB_LocalBP ===
+Graph: medium
+L2_Size: 1MiB
+BP_Type: LocalBP
+Total Instructions: 153940855
+CPI: 0.458566
+IPC: 2.180711
+L1D Miss Rate: 0.005742
+L1I Miss Rate: 0.000052
+L2 Miss Rate: 0.265593
+DRAM Read BW: 170.084488
+Total Branches: 47565338
+Branch Mispredicts: 820982
+
+=== medium_1MiB_TournamentBP ===
+Graph: medium
+L2_Size: 1MiB
+BP_Type: TournamentBP
+Total Instructions: 153940855
+CPI: 0.359418
+IPC: 2.782276
+L1D Miss Rate: 0.006054
+L1I Miss Rate: 0.000072
+L2 Miss Rate: 0.262629
+DRAM Read BW: 214.534851
+Total Branches: 35349844
+Branch Mispredicts: 227148
+
+=== medium_256KiB_BiModeBP ===
+Graph: medium
+L2_Size: 256KiB
+BP_Type: BiModeBP
+Total Instructions: 153940855
+CPI: 0.438009
+IPC: 2.283058
+L1D Miss Rate: 0.005712
+L1I Miss Rate: 0.000067
+L2 Miss Rate: 0.465234
+DRAM Read BW: 342.136170
+Total Branches: 44494138
+Branch Mispredicts: 556552
+
+=== medium_256KiB_LocalBP ===
+Graph: medium
+L2_Size: 256KiB
+BP_Type: LocalBP
+Total Instructions: 153940855
+CPI: 0.477464
+IPC: 2.094399
+L1D Miss Rate: 0.005859
+L1I Miss Rate: 0.000052
+L2 Miss Rate: 0.472323
+DRAM Read BW: 318.814253
+Total Branches: 47622823
+Branch Mispredicts: 821569
+
+=== medium_256KiB_TournamentBP ===
+Graph: medium
+L2_Size: 256KiB
+BP_Type: TournamentBP
+Total Instructions: 153940855
+CPI: 0.375893
+IPC: 2.660330
+L1D Miss Rate: 0.006270
+L1I Miss Rate: 0.000072
+L2 Miss Rate: 0.465985
+DRAM Read BW: 400.642441
+Total Branches: 35407258
+Branch Mispredicts: 227198
+
+=== medium_512KiB_BiModeBP ===
+Graph: medium
+L2_Size: 512KiB
+BP_Type: BiModeBP
+Total Instructions: 153940855
+CPI: 0.432729
+IPC: 2.310917
+L1D Miss Rate: 0.005646
+L1I Miss Rate: 0.000067
+L2 Miss Rate: 0.404122
+DRAM Read BW: 293.535073
+Total Branches: 44447920
+Branch Mispredicts: 556535
+
+=== medium_512KiB_LocalBP ===
+Graph: medium
+L2_Size: 512KiB
+BP_Type: LocalBP
+Total Instructions: 153940855
+CPI: 0.470325
+IPC: 2.126190
+L1D Miss Rate: 0.005833
+L1I Miss Rate: 0.000052
+L2 Miss Rate: 0.408988
+DRAM Read BW: 273.446003
+Total Branches: 47597124
+Branch Mispredicts: 821446
+
+=== medium_512KiB_TournamentBP ===
+Graph: medium
+L2_Size: 512KiB
+BP_Type: TournamentBP
+Total Instructions: 153940855
+CPI: 0.370317
+IPC: 2.700387
+L1D Miss Rate: 0.006202
+L1I Miss Rate: 0.000073
+L2 Miss Rate: 0.403047
+DRAM Read BW: 342.864453
+Total Branches: 35372106
+Branch Mispredicts: 227194
+
+=== small_1MiB_BiModeBP ===
+Graph: small
+L2_Size: 1MiB
+BP_Type: BiModeBP
+Total Instructions: 18040285
+CPI: 0.387899
+IPC: 2.577991
+L1D Miss Rate: 0.002685
+L1I Miss Rate: 0.000603
+L2 Miss Rate: 0.298175
+DRAM Read BW: 136.848434
+Total Branches: 4903162
+Branch Mispredicts: 59039
+
+=== small_1MiB_LocalBP ===
+Graph: small
+L2_Size: 1MiB
+BP_Type: LocalBP
+Total Instructions: 18040285
+CPI: 0.450134
+IPC: 2.221560
+L1D Miss Rate: 0.002759
+L1I Miss Rate: 0.000437
+L2 Miss Rate: 0.288666
+DRAM Read BW: 116.745084
+Total Branches: 5653537
+Branch Mispredicts: 98900
+
+=== small_1MiB_TournamentBP ===
+Graph: small
+L2_Size: 1MiB
+BP_Type: TournamentBP
+Total Instructions: 18040285
+CPI: 0.350524
+IPC: 2.852874
+L1D Miss Rate: 0.002905
+L1I Miss Rate: 0.000611
+L2 Miss Rate: 0.296664
+DRAM Read BW: 150.042708
+Total Branches: 4173771
+Branch Mispredicts: 29583
+
+=== small_256KiB_BiModeBP ===
+Graph: small
+L2_Size: 256KiB
+BP_Type: BiModeBP
+Total Instructions: 18040285
+CPI: 0.388062
+IPC: 2.576910
+L1D Miss Rate: 0.002688
+L1I Miss Rate: 0.000603
+L2 Miss Rate: 0.302216
+DRAM Read BW: 137.916111
+Total Branches: 4903218
+Branch Mispredicts: 59038
+
+=== small_256KiB_LocalBP ===
+Graph: small
+L2_Size: 256KiB
+BP_Type: LocalBP
+Total Instructions: 18040285
+CPI: 0.450340
+IPC: 2.220543
+L1D Miss Rate: 0.002760
+L1I Miss Rate: 0.000437
+L2 Miss Rate: 0.292138
+DRAM Read BW: 117.590176
+Total Branches: 5653533
+Branch Mispredicts: 98900
+
+=== small_256KiB_TournamentBP ===
+Graph: small
+L2_Size: 256KiB
+BP_Type: TournamentBP
+Total Instructions: 18040285
+CPI: 0.350726
+IPC: 2.851228
+L1D Miss Rate: 0.002910
+L1I Miss Rate: 0.000611
+L2 Miss Rate: 0.300288
+DRAM Read BW: 151.079525
+Total Branches: 4173803
+Branch Mispredicts: 29582
+
+=== small_512KiB_BiModeBP ===
+Graph: small
+L2_Size: 512KiB
+BP_Type: BiModeBP
+Total Instructions: 18040285
+CPI: 0.387899
+IPC: 2.577991
+L1D Miss Rate: 0.002685
+L1I Miss Rate: 0.000603
+L2 Miss Rate: 0.298175
+DRAM Read BW: 136.848434
+Total Branches: 4903162
+Branch Mispredicts: 59039
+
+=== small_512KiB_LocalBP ===
+Graph: small
+L2_Size: 512KiB
+BP_Type: LocalBP
+Total Instructions: 18040285
+CPI: 0.450134
+IPC: 2.221560
+L1D Miss Rate: 0.002759
+L1I Miss Rate: 0.000437
+L2 Miss Rate: 0.288666
+DRAM Read BW: 116.745084
+Total Branches: 5653537
+Branch Mispredicts: 98900
+
+=== small_512KiB_TournamentBP ===
+Graph: small
+L2_Size: 512KiB
+BP_Type: TournamentBP
+Total Instructions: 18040285
+CPI: 0.350524
+IPC: 2.852874
+L1D Miss Rate: 0.002905
+L1I Miss Rate: 0.000611
+L2 Miss Rate: 0.296664
+DRAM Read BW: 150.042708
+Total Branches: 4173771
+Branch Mispredicts: 29583
